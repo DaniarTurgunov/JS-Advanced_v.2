@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 18px;
+}
+h3 {
+    margin-bottom: 10px;
+}
+form{
+    padding: 10px 10px;
+    background-color: rgba(238, 171, 94, 0.733);
+    border: 1px solid rgb(39, 33, 29);
+    & .inputtext{
+        margin-bottom: 10px;
+    }
+    & .reviews{
+        margin-bottom: 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+}
